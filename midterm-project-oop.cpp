@@ -235,7 +235,7 @@ int main() {
                 cout << "Enter item category (Clothing, Electronics, Entertainment): ";
                 cin >> category;
 
-                if (category == "Clothing" || category == "Electronics" || category == "Entertainment") {
+                if (category == "Clothing" || category == "Electronics" || category == "entertainment" || category == "clothing" || category == "electronics" || category == "entertainment") {
                     Item newItem(id, name, price, quantity, category);
                     storage.addItem(newItem);
                 } else {
